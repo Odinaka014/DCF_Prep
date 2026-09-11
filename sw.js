@@ -1,9 +1,10 @@
-const CACHE = 'dcf-prep-v2';
+const CACHE = 'dcf-prep-v5';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './icon.svg'
+  './icon.svg',
+  './icon-maskable.svg'
 ];
 
 self.addEventListener('install', e => {
